@@ -1,0 +1,61 @@
+
+  .header{
+    position: sticky;
+    top: 0px;
+    min-height: 80px;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(208, 83, 69);
+}
+.logo{
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding-left:40px
+}
+.header-links{
+  display: flex;
+}
+.header-links ul li{
+  list-style: none;
+  display:inline-block;
+  font-size: 18px;
+}
+.header-links ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0px 15px;
+}
+.header-links ul li a:hover{
+color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Adjust this property as needed */
+}
+
+
+.cd {
+display: grid;
+justify-content: center;
+place-items: center;
+width: 100%;
+
+
+
+grid-template-rows: 500px;
+grid-template-columns: repeat(4, 300px);
+grid-gap:10px;
+}
+
